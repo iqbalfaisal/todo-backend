@@ -1,0 +1,25 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "description": "Code Challenge",
+  "main": "server.js",
+  "author": "Faisal Iqbal",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "mongoose": "^5.12.11",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
